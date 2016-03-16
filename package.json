@@ -1,6 +1,6 @@
 {
   "name": "fiss-command-init",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "scaffold utilities for fiss",
   "main": "index.js",
   "keywords": [
@@ -27,5 +27,5 @@
     "findup": "^0.1.5",
     "fis-scaffold-kernel": "^0.1.1"
   },
-  "useNpmInstall":false
+  "useNpmInstall": false
 }
