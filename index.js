@@ -33,7 +33,8 @@ exports.run = function (argv, cli, env) {
     var options = {
         solutionName: env.modulePackage.name,
         fisConfigFile: env.configNameSearch[0],
-        root: env.cwd,
+        // root: env.cwd,
+        root: process.cwd(),
         force: argv.force || argv.f
     };
 

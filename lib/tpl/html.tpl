@@ -14,15 +14,15 @@
     <!--meta end -->
 
     <title>${#title#}</title>
-    
+
     <!-- 注：客户端页面不需要此设置 -->
-    <link rel="apple-touch-icon-precomposed" href="http://img.58cdn.com.cn/m58/img/icon58b.png" />
+    <link rel="apple-touch-icon-precomposed" href="your-icon-address" />
     <!-- 注：客户端页面不需要此设置 -->
-    <link rel="apple-touch-startup-image" href="http://img.58cdn.com.cn/m58/img/icon58b.png" />
+    <link rel="apple-touch-startup-image" href="your-icon-address" />
 
 </head>
 <body>
-	
+
 	<% if: ${#useEsl=true#} %>
 		<script src="http://j2.58cdn.com.cn/olympia/js/lib/esl_zepto_load.min.js"></script>
 	<% /if %>
