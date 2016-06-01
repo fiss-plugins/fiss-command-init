@@ -1,6 +1,6 @@
 {
   "name": "fiss-command-init",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "scaffold utilities for fiss",
   "main": "index.js",
   "keywords": [
